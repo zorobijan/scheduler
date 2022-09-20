@@ -1,2 +1,7 @@
-var time = moment("11/15/2022", "MM-DD-YYYY").format("MMM Do,   YYYY")
-$("#4a").text(time);
+// $(document).ready(function() {
+//     //loads DOM before page loads//
+
+//   })
+let today = moment();
+$("#time-display").text(today.format("MMM Do, YYYY"));
+
