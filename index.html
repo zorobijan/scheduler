@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -26,58 +27,61 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <h2 id="time-display"></h2>
     </header>
     <div class="container">
         <div id="1hr" class="row time-block">
             <div class="col-md-1">9AM</div>
-            <textarea class = "col-md-10 description"></textarea>
+            <textarea class = "col-md-10 description" id="text1hr"></textarea>
             <button class = "saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
         <div id="2hr" class="row time-block">
             <div class="col-md-1">10AM</div>
-            <textarea class = "col-md-10 description"></textarea>
+            <textarea class = "col-md-10 description" id="text2hr"></textarea>
             <button class = "saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
         <div id="3hr" class="row time-block">
             <div class="col-md-1">11AM</div>
-            <textarea class = "col-md-10 description"></textarea>
+            <textarea class = "col-md-10 description" id="text3hr"></textarea>
             <button class = "saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
         <div id="4hr" class="row time-block">
             <div class="col-md-1">12PM</div>
-            <textarea class = "col-md-10 description"></textarea>
+            <textarea class = "col-md-10 description" id="text4hr"></textarea>
             <button class = "saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
         <div id="5hr" class="row time-block">
             <div class="col-md-1">1PM</div>
-            <textarea class = "col-md-10 description"></textarea>
+            <textarea class = "col-md-10 description" id="text5hr"></textarea>
             <button class = "saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
         <div id="6hr" class="row time-block">
             <div class="col-md-1">2PM</div>
-            <textarea class = "col-md-10 description"></textarea>
+            <textarea class = "col-md-10 description" id="text6hr"></textarea>
             <button class = "saveBtn col-md-1"><i class="fas fa-save"></i></button>
 
         </div>
         <div id="7hr" class="row time-block">
             <div class="col-md-1">3PM</div>
-            <textarea class = "col-md-10 description"></textarea>
+            <textarea class = "col-md-10 description" id="text7hr"></textarea>
             <button class = "saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
         <div id="8hr" class="row time-block">
             <div class="col-md-1">4PM</div>
-            <textarea class = "col-md-10 description"></textarea>
+            <textarea class = "col-md-10 description" id="text8hr"></textarea>
             <button class = "saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
         <div id="9hr" class="row time-block">
             <div class="col-md-1">5PM</div>
-            <textarea class = "col-md-10 description"></textarea>
+            <textarea class = "col-md-10 description" id="text9hr"></textarea>
             <button class = "saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
-    </main>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
