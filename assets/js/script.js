@@ -11,6 +11,7 @@ const buttonEl = document.getElementById(".saveBtn");
 let today = moment();
 $("#time-display").text(today.format("MMM Do, YYYY"));
 
+<<<<<<< HEAD
 containerEl.addEventListener("click", function(event){
   if(event.target.matches("button")){
     let input_textareaOne = event.target.previousElementSibling.value
@@ -53,3 +54,6 @@ containerEl.addEventListener("click", function(event){
 
   }
   loadEvents();
+=======
+
+>>>>>>> a16ff2ee84f034e5ebd3305a1dd0a64e33e03734
